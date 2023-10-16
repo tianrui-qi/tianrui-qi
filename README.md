@@ -10,6 +10,6 @@ I want to pursue a Biomedical Engineering (BME) Ph.D. after my undergraduate stu
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/tianrui-qi" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/Website-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
   </a>
 </p>
