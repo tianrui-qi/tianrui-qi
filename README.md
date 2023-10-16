@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+Hi, this is Tianrui (Eric) Qi, a junior undergraduate at Georgia Tech (GT) majoring in Computer Science (CS). Before joining GT, I studied CS and Mathematics at Rensselaer Polytechnic Institute (RPI). My primary interest lies at the crossroads of machine learning (ML) and optics imaging. During my time at RPI, I built a strong foundation in statistics and ML under the guidance of Dr. Wang. Now, in Dr. Jia’s lab at GT, I’m broadening my expertise in imaging technology, such as single-molecule and super-resolution microscopy. With a solid base in both the theoretical and practical aspects of my domain, I continue to expand my knowledge tree to Physics right now as my second major at GT. I want to pursue a Biomedical Engineering (BME) Ph.D. after my undergraduate studies.
 <!--
 **tianrui-qi/tianrui-qi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
