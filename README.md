@@ -6,10 +6,10 @@ With a solid base in both the theoretical and practical aspects of my domain, I 
 I want to pursue a Biomedical Engineering (BME) Ph.D. after my undergraduate studies.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tianrui-qi/" target="_blank" style="margin-right: 0px;">
+  <a href="https://www.linkedin.com/in/tianrui-qi/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://github.com/tianrui-qi" target="_blank" style="margin-left: 0px;">
+  <a href="https://github.com/tianrui-qi">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
   </a>
 </p>
