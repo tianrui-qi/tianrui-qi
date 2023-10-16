@@ -1,5 +1,3 @@
-### Hi there 👋
-
 Hi, this is Tianrui (Eric) Qi, a junior undergraduate at [Georgia Tech](https://www.gatech.edu/) (GT) majoring in Computer Science (CS). 
 Before joining GT, I studied CS and Mathematics at [Rensselaer Polytechnic Institute](https://www.rpi.edu/) (RPI). My primary interest lies at the crossroads of machine learning (ML) and optics imaging. 
 During my time at RPI, I built a strong foundation in statistics and ML under the guidance of [Dr. Wang](https://wang-axis.github.io/). 
