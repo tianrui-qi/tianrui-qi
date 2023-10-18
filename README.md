@@ -4,12 +4,3 @@ During my time at RPI, I built a strong foundation in statistics and ML under th
 Now, in [Dr. Jia’s lab](https://sites.google.com/site/thejialab/) at GT, I’m broadening my expertise in imaging technology, such as single-molecule and super-resolution microscopy. 
 With a solid base in both the theoretical and practical aspects of my domain, I continue to expand my knowledge tree to Physics right now as my second major at GT. 
 I want to pursue a Biomedical Engineering (BME) Ph.D. after my undergraduate studies.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/tianrui-qi/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/tianrui-qi">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
-  </a>
-</p>
