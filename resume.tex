@@ -1,0 +1,208 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage{enumitem, titlesec, hyperref}
+\usepackage[margin=0.5in]{geometry}
+\pagestyle{empty}
+
+% section setting
+\titleformat{\section}{\scshape\large}{}{0em}{}[\titlerule]
+% vsapce between subsection
+\newcommand{\subsectionvspace}{\vspace{6pt}}
+% line space of item same to default line space of the body paragraph
+\setlist[itemize]{noitemsep, topsep=0pt}
+% no automatic indentation at the beginning of the body paragraph
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+
+
+\begin{center}
+    \textbf{\LARGE Tianrui (Eric) Qi} \\
+    +1(518)-961-3370 
+    $\cdot$ 
+    tianrui.qi@gatech.edu \\ 
+    Linkedin: \href{https://www.linkedin.com/in/tianrui-qi/}{tianrui-qi} 
+    $\cdot$ 
+    GitHub: \href{https://github.com/tianrui-qi}{tianrui-qi}
+\end{center}
+
+
+\section{Education}
+
+
+    \textbf{B.S. in Computer Science \hfill 01.2023 - (05.2025)} \\
+    \textit{Georgia Institute of Technology, Atlanta, GA} \hfill GPA: 3.92/4.00
+    \begin{itemize}
+        \item Concentration: Modeling and Simulation, Theory
+        \item Minor: Physics
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{B.S. in Computer Science, Mathematics \hfill 09.2020 - 12.2022} \\
+    \textit{Rensselaer Polytechnic Institute, Troy, NY} \hfill GPA: 3.73/4.00 
+    \begin{itemize}
+        \item Concentration: Theory, Algorithms, and Mathematics; Applied Mathematics, Mathematics of Computation 
+        \item Minor: Economics         
+        \item Honors: Dean's Honor List (all five semesters)
+    \end{itemize}
+
+
+\section{Experience}
+
+
+    \textbf{Startup Founder},
+    CREATE-X Idea to Prototype \hfill \textbf{08.2024 - present} \\
+    \textit{
+        Mentor: Dr. Xuanwen Hua, 
+        Postdoctoral Fellow, \\
+        Wallace H. Coulter Department of Biomedical Engineering,
+        Georgia Institute of Technology and Emory University
+    }
+    \begin{itemize}
+        \item[$\circ$] Conceptualizing an AR platforms that simulate interactions with 2D surfaces in a 3D space, addressing the limitation of screens that only support 2D writing and drawing and VR apps that focus solely on fully 3D interactions.
+        \item[$\circ$] Exploring the computational power of Apple's AR platforms utilizing ARKit, assessing the extent of realistic user-environment interactions possible with current resources, and gathering user feedback to identify potential applications. 
+        \item[$\circ$] Developing an prototype in iPhone that transforms a 3D indoor space into 2D canvas for creation and then projects back to the space for viewing, with plans to expand to more complex environments and additional devices.
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{Co-op}, 
+    Regeneron Genetics Center \hfill \textbf{01.2024 - 08.2024} \\
+    \textit{
+        Manager: Dr. Jing He, 
+        Mgr Integrative Translational Genetics, \\
+        Therapeutic Area Genetics,
+        Regeneron Genetics Center
+    }
+    \begin{itemize}
+        \item Utilized a BERT-based LLM to map DNA sequences in whole exome sequencing (WXS) samples into a bio-meaningful vector space and performed unsupervised feature selection to obtain a vector representation for each WXS sample.
+        \item Demonstrated the representations capture sample-wise differences in somatic immune phenotypes by training the pipeline on 23 WXS samples and achieving 76\% accuracy in predicting leukocyte fraction on 17 TCGA SKCM samples.
+        \item Scaled up the pipeline to handle about 1,000 WXS samples with 100 billion DNA sequences by optimizing parallel computing for HPC (Slurm) and enhancing file system efficiency through hashing.
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{Undergraduate Research Assistant}, 
+    Jia Laboratory for Systems Biophotonics \hfill \textbf{04.2023 - present} \\
+    \textit{
+        Principal Investigator: Dr. Shu Jia, 
+        Associate Professor, \\
+        Wallace H. Coulter Department of Biomedical Engineering,
+        Georgia Institute of Technology and Emory University
+    }
+    \begin{itemize}
+        \item Engineered a scalable 3D U-Net and training pipeline based entirely on simulated data for multi-scale super-resolution volumetric localization in single-molecule localization microscopy, achieving precise localization down to 20nm.
+        \item Developed a patch-based prediction pipeline that flexibly adapts to various input volumes, requires minimal computational resources while easy to scale up, and achieves a 100x speedup over traditional Gaussian localization.
+        \item Integrated the redundant cross-correlation algorithm for drift calculation and correction with the deep learning-based prediction pipeline, while balancing resource consumption and accuracy.
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{Undergraduate Teaching Assistant}, 
+    CSCI 2200 Foundations of Computer Science \hfill \textbf{09.2022 - 12.2022} \\
+    \textit{
+        Instructor: Dr. David Goldschmidt, 
+        Executive Officer, \\
+        Department of Computer Science, 
+        Rensselaer Polytechnic Institute
+    }
+    %\begin{itemize}
+        %\item Led recitation session weekly, addressing students' questions and deepening their understanding of learning objects, including logic proofs, combinatorics, probability, computation models, finite automata, and Turing machines.
+        %\item Graded assignments and exams, ensured understanding of learning concepts, and proctored exams. Attended weekly labs, inspected lab exercises, and offered real-time guidance on course content.
+    %\end{itemize}
+
+    \subsectionvspace
+
+    \textbf{Undergraduate Research Assistant}, 
+    AI-based X-ray Imaging System Lab \hfill \textbf{11.2021 - 12.2022} \\
+    \textit{
+        Principal Investigator: Dr. Ge Wang, 
+        Clark \& Crossan Endowed Chair Professor and Director of Biomedical Imaging Center, \\
+        Department of Biomedical Engineering, 
+        Rensselaer Polytechnic Institute
+    }
+    \begin{itemize}
+        \item Derived backward propagation formulation for quadratic neural networks and compared forward and backward propagation between quadratic and conventional neural networks mathematically. 
+        \item Implemented forward propagation, backward propagation, and training process of quadratic and conventional neural networks at mathematical computation level in Python using NumPy.
+        \item Demonstrated that single-layer quadratic neural networks rivals conventional one with hundreds of neurons in classifying simulated and real-world Gaussian mixture data, highlighting efficacy and efficiency of quadratic neurons.
+        %\item Integrated active dendrites with quadratic neurons to develop quadratic dendritic networks capable of adapting to changing task contexts and continuous learning.
+    \end{itemize}
+
+
+\section{Publication}
+
+
+    \textit{† denotes co-first authors}
+
+    \subsectionvspace
+
+    Keyi Han$^\dag$, Xuanwen Hua$^\dag$, \textbf{Tianrui Qi}$^\dag$, Zijun Gao, Xiaopeng Wang, Shu Jia, ``Volumetric Reconstruction and Localization Networks for 3D Single-molecule Localization Microscopy,'' \textit{manuscript in preparation} (expected 2024).
+
+    \subsectionvspace
+
+    \textbf{Tianrui Qi}, Ge Wang, ``Superiority of quadratic over conventional neural networks for classification of gaussian mixture data,'' \textit{Visual Computing for Industry, Biomedicine, and Art} (2022).
+
+
+\section{Academic Projects}
+
+
+    \textbf{\href{https://github.com/tianrui-qi/ADMM-for-SVM}{Alternating Direction Method of Multipliers for Support Vector Machine}}, \\
+    MATP 4820 Computational Optimization \hfill \textbf{01.2022 - 05.2022} \\
+    \textit{
+        Instructor: Dr. Yangyang Xu, 
+        Associate Professor, \\
+        Department of Mathematical Sciences, 
+        Rensselaer Polytechnic Institute
+    }
+    \begin{itemize}
+        \item Formulated the primal and augmented dual optimization problems for support vector machine (SVM) objective and developed alternating direction method of multipliers (ADMM) solver by solving two sub-optimization problems.
+        \item Implemented the ADMM solver in MATLAB and reported the primal and dual feasibility violation at each outer iteration for the testing datasets.
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{\href{https://github.com/tianrui-qi/WOS-Analysis}{Windows of Susceptibility Analysis for Brain Diseases}}, 
+    MATP 4400 Data Mathematics \hfill \textbf{01.2022 - 03.2022} \\
+    \textit{
+        Instructor: Dr. Kristin Bennett, 
+        Associate Director of Institute of Data Exploration and Applications, \\
+        Department of Mathematical Sciences, 
+        Rensselaer Polytechnic Institute
+    }
+    \begin{itemize}
+        \item Performed the windows of susceptibility analysis based on mouse data from a similar brain-in-a-dish model for mice using R with machine learning techniques, including k-means clustering and principal component analysis (PCA).
+        \item Analyzed the same sets of microcephaly-associated genes and Zika-associated genes and detected similar windows of susceptibility for Microcephaly and Zika-induced microcephaly in mice as in humans.
+    \end{itemize}
+
+    \subsectionvspace
+
+    \textbf{\href{https://github.com/tianrui-qi/MIPS-Processor}{MIPS Processor in C}},
+    CSCI 2500 Computer Organization \hfill \textbf{09.2021 - 12.2021} \\
+    \textit{
+        Instructor: Dr. Konstantin Kuzmin,
+        Lecturer, \\
+        Department of Computer Science,
+        Rensselaer Polytechnic Institute
+    }
+    \begin{itemize}
+        \item Represented the datapath for a reduced MIPS instruction set architectures (ISA) through a full gate-level circuit in C and implemented components of the processor, including memory, control, ALU, decoder, adder, multiplexor, etc.
+        \item Supported I-type instructions including \verb|lw|, \verb|sw|, \verb|beq|, \verb|addi|, R-type instructions including \verb|and|, \verb|or|, \verb|add|, \verb|sub|, \verb|slt|, \verb|jr|, and J-type instructions \verb|j|, \verb|jal|.
+    \end{itemize}
+
+
+\section{Skills}
+
+
+    \textbf{Programming Languages:} Python (PyTorch, NumPy, pandas), MATLAB, Java, C, C++, R, Swift (ARKit), Bash, MIPS
+    \\
+    \textbf{Development Tools:} Git, Conda, VSCode, JetBrains (PyCharm, IntelliJ, CLion, Android Studio), RStudio, Xcode
+    \\
+    \textbf{Computing Plantforms:} Linux (Ubuntu), AWS (EC2, S3), HPC (Slurm)
+    \\
+    \textbf{Software:} LaTeX, ImageJ, Adobe (Illustrator)
+    \\
+    \textbf{Communication:} English (Proficient), Mandarin (Native)
+
+
+\end{document}
