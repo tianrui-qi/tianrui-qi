@@ -8,7 +8,7 @@
 % section setting
 \titleformat{\section}{\scshape\Large}{}{0em}{}[\titlerule]
 % vsapce between subsection
-\newcommand{\subsectionvspace}{\vspace{7pt}}
+\newcommand{\subsectionvspace}{\vspace{8pt}}
 % line space of item same to default line space of the body paragraph
 \setlist[itemize]{noitemsep, topsep=0pt}
 % no automatic indentation at the beginning of the body paragraph
@@ -21,21 +21,20 @@
 \begin{minipage}[t]{0.3\textwidth}
     \vspace*{0\baselineskip}\textbf{\huge Tianrui Qi}
 \end{minipage}%
-\begin{minipage}[t]{0.7\textwidth}
-    \raggedleft
-    9 Gardner St, Allston, MA 02134
-    \\
+\begin{minipage}[t]{0.7\textwidth}\raggedleft
+    % 9 Gardner St, Allston, MA 02134
+    % \\
     tianrui.qi@icloud.com 
     $\cdot$ 
-    % tianrui.qi@gatech.edu 
+    % tqi04@bu.edu
     % \\
     +1(518)961-3370
     % $\cdot$ 
     % +86 136 9650 0794
     \\
-    LinkedIn: \href{https://www.linkedin.com/in/tianrui-qi/}{tianrui-qi}
-    $\cdot$
-    GitHub: \href{https://github.com/tianrui-qi}{tianrui-qi}
+    LinkedIn: \href{https://www.linkedin.com/in/tianrui-qi/}{\underbar{linkedin.com/in/tianrui-qi}}
+    % $\cdot$
+    % GitHub: \href{https://github.com/tianrui-qi}{\underbar{github.com/tianrui-qi}}
 \end{minipage}
 
 
@@ -49,9 +48,8 @@
 
     \textbf{B.S. in Computer Science \hfill 01/2023 - 05/2025} \\
     \textit{Georgia Institute of Technology, Atlanta, GA}
-    \hfill GPA: 3.85/4.00
     \begin{itemize}
-        % \item GPA: 3.85/4.00
+        \item GPA: 3.85/4.00
         \item Achievements: Highest Honor, President's Undergraduate Research Awards
     \end{itemize}
 
@@ -59,15 +57,30 @@
 
     \textbf{B.S. in Computer Science; Double Major in Mathematics \hfill 09/2020 - 12/2022} \\
     \textit{Rensselaer Polytechnic Institute, Troy, NY}
-    \hfill GPA: 3.73/4.00
     \begin{itemize}
-        % \item GPA: 3.73/4.00
+        \item GPA: 3.73/4.00
         \item Achievements: Dean's Honor List (every semester)
         \item Minor: Economics
     \end{itemize}
 
 
-\section{Experience}
+\section{Publications \hfill {\normalsize \normalfont $\dag$: contributed equally}}
+
+
+    \textbf{Volumetric Localization Microscopy with Deep Learning \hfill 2025}\\
+    \textit{Nature Communications} \\
+    \textit{Keyi Han$^\dag$, Xuanwen Hua$^\dag$, Tianrui Qi$^\dag$, Zijun Gao, Xiaopeng Wang, Shu Jia} \\
+    DOI: \href{https://doi.org/10.1038/s41467-025-65941-3}{\underbar{doi.org/10.1038/s41467-025-65941-3}}
+
+    \subsectionvspace
+
+    \textbf{Superiority of Quadratic Neural Networks for Classification of Gaussian Mixture Data \hfill 2022} \\
+    \textit{Visual Computing for Industry, Biomedicine, and Art} \\
+    \textit{Tianrui Qi, Ge Wang} \\
+    DOI: \href{https://doi.org/10.1186/s42492-022-00118-z}{\underbar{doi.org/10.1186/s42492-022-00118-z}}
+
+
+\section{Research Experience}
 
 
     \textbf{Undergraduate Research Assistant \hfill 04/2023 - 05/2025} \\
@@ -78,17 +91,7 @@
         \item Developed a patch-based prediction pipeline that flexibly adapts to various input volume sizes and achieves a 100x speedup over conventional deterministic localization methods.
         \item Integrated the redundant cross-correlation algorithm for drift correction with the deep learning-based prediction pipeline.
     \end{itemize}
-
-    \subsectionvspace
-
-    \textbf{Co-op \hfill 01/2024 - 08/2024} \\
-    \textit{Regeneron Genetics Center, Tarrytown, NY} \\
-    \textit{Therapeutic Area Genetics, Manager: Jing He, Ph.D.}
-    \begin{itemize}
-        \item Utilized BERT-based large language models (LLMs) and unsupervised feature selection to obtrain a vector representation in a bio-meaningful space for each whole exome sequencing (WXS) sample.
-        \item Demonstrated that the representations capture sample-wise differences by predicting immune system indicators of The Cancer Genome Atlas Program (TCGA) skin cancer samples.
-        \item Scaled up the pipeline to handle hundreds WXS samples with billion DNA sequences by optimizing parallel computing for high-performance computing (HPC) and enhancing file system efficiency through hashing.
-    \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/DSMLM}{\underbar{github.com/tianrui-qi/DSMLM}}
 
     \subsectionvspace
 
@@ -100,8 +103,25 @@
         \item Implemented forward propagation, backward propagation, and training process of quadratic and conventional neural networks explicitly using NumPy in Python.
         \item Demonstrated that single-layer quadratic neural networks rival conventional neural networks with hundreds of neurons in classifying simulated and real-world Gaussian mixture data.
     \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/QuadraticNeurons}{\underbar{github.com/tianrui-qi/QuadraticNeurons}}
 
-    \subsectionvspace
+
+\section{Industry Experience}
+
+
+    \textbf{Co-op \hfill 01/2024 - 08/2024} \\
+    \textit{Regeneron Genetics Center, Tarrytown, NY} \\
+    \textit{Therapeutic Area Genetics, Manager: Jing He, Ph.D.}
+    \begin{itemize}
+        \item Utilized BERT-based large language models (LLMs) and unsupervised feature selection to obtrain a vector representation in a bio-meaningful space for each whole exome sequencing (WXS) sample.
+        \item Demonstrated that the representations capture sample-wise differences by predicting immune system indicators of The Cancer Genome Atlas Program (TCGA) skin cancer samples.
+        \item Scaled up the pipeline to handle hundreds WXS samples with billion DNA sequences by optimizing parallel computing for high-performance computing (HPC) and enhancing file system efficiency through hashing.
+    \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/SIP-DB2}{\underbar{github.com/tianrui-qi/SIP-DB2}}
+
+
+\section{Teaching Experience}
+
 
     \textbf{Undergraduate Teaching Assistant \hfill 09/2022 - 12/2022} \\
     \textit{Rensselaer Polytechnic Institute, Troy, NY} \\
@@ -112,46 +132,19 @@
     \end{itemize}
 
 
-\section{Publications}
-
-
-    \begin{minipage}[t]{0.9\textwidth} 
-        Keyi Han$^\dag$, Xuanwen Hua$^\dag$, \textbf{Tianrui Qi}$^\dag$, Zijun Gao, Xiaopeng Wang, Shu Jia. 
-        ``Volumetric Reconstruction and Localization Networks for 3D Single-molecule Localization Microscopy.''
-        \textit{Manuscript under revision at Nature Communications}.
-    \end{minipage}%
-    \begin{minipage}[t]{0.1\textwidth} \raggedleft
-        \textbf{2025}
-    \end{minipage}
-
-    \subsectionvspace\subsectionvspace
-
-    \begin{minipage}[t]{0.9\textwidth} 
-        \textbf{Tianrui Qi}, Ge Wang. 
-        ``Superiority of quadratic over conventional neural networks for classification of gaussian mixture data.'' 
-        \textit{Visual Computing for Industry, Biomedicine, and Art}.
-    \end{minipage}%
-    \begin{minipage}[t]{0.1\textwidth} \raggedleft
-        \textbf{2022}
-    \end{minipage}
-
-    \subsectionvspace\subsectionvspace
-
-    \textit{$\dag$ denotes co-first authors}
-
-
 \section{Course Projects}
 
 
-    % \textbf{WanderSync: A Collaborative Travel Management System \hfill 09/2024 - 12/2024} \\
-    % \textit{Georgia Institute of Technology, Atlanta, GA} \\
-    % \textit{CS 2340 Objects and Design, Instructor: Nimisha Roy, Ph.D.}
-    % \begin{itemize}
-    %     \item Designed and implemented a travel management app following the MVVM architectural pattern, using Firebase Realtime Database to manage user accounts, destinations, accommodations, and dining reservations.
-    %     \item Enabled real-time collaboration features, allowing users to seamlessly share and synchronize travel plans, including itineraries and notes, across group members.
-    % \end{itemize}
+    \textbf{WanderSync: A Collaborative Travel Management System \hfill 09/2024 - 12/2024} \\
+    \textit{Georgia Institute of Technology, Atlanta, GA} \\
+    \textit{CS 2340 Objects and Design, Instructor: Nimisha Roy, Ph.D.}
+    \begin{itemize}
+        \item Designed and implemented a travel management app following the MVVM architectural pattern, using Firebase Realtime Database to manage user accounts, destinations, accommodations, and dining reservations.
+        \item Enabled real-time collaboration features, allowing users to seamlessly share and synchronize travel plans, including itineraries and notes, across group members.
+    \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/WanderSync}{\underbar{github.com/tianrui-qi/WanderSync}}
 
-    % \subsectionvspace
+    \subsectionvspace
 
     \textbf{Datapath and Control for a Turing Complete ISA with Interrupt Handling \hfill 09/2023 - 12/2023} \\
     \textit{Georgia Institute of Technology, Atlanta, GA} \\
@@ -160,6 +153,7 @@
         \item Designed a single-bus datapath and an efficient four-ROM microcontroller for a Turing complete instruction set architecture (ISA), supporting arithmetic, logical, memory access, and control flow instructions.
         \item Handled basic and input device interrupts by additional hardware including new instructions, interrupt registers, signals, and I/O bus, along with software supports such as interrupt vector tables.
     \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/LC2222a-ISA}{\underbar{github.com/tianrui-qi/LC2222a-ISA}}
 
     \subsectionvspace
 
@@ -170,33 +164,36 @@
         \item Formulated the primal and augmented dual optimization problems for support vector machine (SVM) objective and developed alternating direction method of multipliers (ADMM) solver.
         \item Implemented the ADMM solver in MATLAB and reported the primal and dual feasibility violations at each outer iteration for the testing datasets.
     \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/ADMM-for-SVM}{\underbar{github.com/tianrui-qi/ADMM-for-SVM}}
 
-    % \subsectionvspace
+    \subsectionvspace
 
-    % \textbf{Windows of Susceptibility Analysis for Brain Diseases \hfill 01/2022 - 05/2022} \\
-    % \textit{Rensselaer Polytechnic Institute, Troy, NY} \\
-    % \textit{MATP 4400 Data Mathematics, Instructor: Kristin Bennett, Ph.D.}
-    % \begin{itemize}
-    %     \item Performed the windows of susceptibility analysis based on mouse data from a similar brain-in-a-dish model for mice using R with k-means clustering and principal component analysis (PCA).
-    %     \item Analyzed the same sets of microcephaly-associated genes and Zika-associated genes and detected similar windows of susceptibility for Microcephaly and Zika-induced microcephaly in mice as in humans.
-    % \end{itemize}
+    \textbf{Windows of Susceptibility Analysis for Brain Diseases \hfill 01/2022 - 05/2022} \\
+    \textit{Rensselaer Polytechnic Institute, Troy, NY} \\
+    \textit{MATP 4400 Data Mathematics, Instructor: Kristin Bennett, Ph.D.}
+    \begin{itemize}
+        \item Performed the windows of susceptibility analysis based on mouse data from a similar brain-in-a-dish model for mice using R with k-means clustering and principal component analysis (PCA).
+        \item Analyzed the same sets of microcephaly-associated genes and Zika-associated genes and detected similar windows of susceptibility for Microcephaly and Zika-induced microcephaly in mice as in humans.
+    \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/WOS-Analysis}{\underbar{github.com/tianrui-qi/WOS-Analysis}}
 
-    % \subsectionvspace
+    \subsectionvspace
 
-    % \textbf{Full Gate-Level Circuit in C for a Reduced MIPS ISA \hfill 09/2021 - 12/2021} \\
-    % \textit{Rensselaer Polytechnic Institute, Troy, NY} \\
-    % \textit{CSCI 2500 Computer Organization, Instructor: Konstantin Kuzmin, Ph.D.}
-    % \begin{itemize}
-    %     \item Designed a datapath for a reduced MIPS instruction set architectures (ISA) that support I-type instructions including \verb|lw|, \verb|sw|, \verb|beq|, \verb|addi|, R-type including \verb|and|, \verb|or|, \verb|add|, \verb|sub|, \verb|slt|, \verb|jr|, and J-type including \verb|j|, \verb|jal|.
-    %     \item Implemented the datapath through a full gate-level circuit in C, including components of the processor like memory, control, arithmetic logic unit (ALU), decoder, adder, multiplexor, etc.
-    % \end{itemize}
+    \textbf{Full Gate-Level Circuit in C for a Reduced MIPS ISA \hfill 09/2021 - 12/2021} \\
+    \textit{Rensselaer Polytechnic Institute, Troy, NY} \\
+    \textit{CSCI 2500 Computer Organization, Instructor: Konstantin Kuzmin, Ph.D.}
+    \begin{itemize}
+        \item Designed a datapath for a reduced MIPS instruction set architectures (ISA) that support I-type instructions including \verb|lw|, \verb|sw|, \verb|beq|, \verb|addi|, R-type including \verb|and|, \verb|or|, \verb|add|, \verb|sub|, \verb|slt|, \verb|jr|, and J-type including \verb|j|, \verb|jal|.
+        \item Implemented the datapath through a full gate-level circuit in C, including components of the processor like memory, control, arithmetic logic unit (ALU), decoder, adder, multiplexor, etc.
+    \end{itemize}
+    GitHub: \href{https://github.com/tianrui-qi/MIPS-ISA}{\underbar{github.com/tianrui-qi/MIPS-ISA}}
 
 
 \section{Skills}
 
 
-    \textbf{Programming:} Python (PyTorch, NumPy, pandas), MATLAB, Java, C, C++, R, Swift (ARKit), Bash, MIPS. \\
-    \textbf{Development Tools:} Git, Conda, VS Code, RStudio, JetBrains Suite, Android Studio, Xcode. \\
+    \textbf{Programming:} Python (PyTorch, NumPy, pandas), MATLAB, Java, C, C++, R, Bash, MIPS. \\
+    \textbf{Development Tools:} Git, Conda, VS Code, RStudio, JetBrains Suite, Android Studio. \\
     \textbf{Computing Platforms:} Linux (Ubuntu), AWS (EC2, S3), HPC (Slurm). \\
     \textbf{Software:} LaTeX, ImageJ, Adobe Illustrator. \\
     \textbf{Laboratory:} optics and laser alignment, fluorescence imaging, fluorescence labeling, cell culture maintenance. \\
@@ -211,7 +208,7 @@
         Executive Officer \\
         Computer Science Department \\
         Rensselaer Polytechnic Institute \\
-        110 8th Street, Troy, NY 12180 \\
+        % 110 8th Street, Troy, NY 12180 \\
         goldsd3@rpi.edu $\cdot$ +1(518)276-2819
     \end{minipage}%
     \begin{minipage}[t]{0.04\textwidth}
@@ -222,7 +219,7 @@
         Postdoctoral Fellow \\
         Coulter Department of Biomedical Engineering \\
         Georgia Institute of Technology and Emory University \\
-        313 Ferst Drive, Atlanta, GA 30332 \\
+        % 313 Ferst Drive, Atlanta, GA 30332 \\
         x.hua@gatech.edu $\cdot$ +1(631)590-9121
     \end{minipage}
 
@@ -233,7 +230,7 @@
         Associate Professor \\
         Coulter Department of Biomedical Engineering \\
         Georgia Institute of Technology and Emory University \\
-        313 Ferst Drive, Atlanta, GA 30332 \\
+        % 313 Ferst Drive, Atlanta, GA 30332 \\
         shu.jia@gatech.edu $\cdot$ +1(404)894-0290
     \end{minipage}%
     \begin{minipage}[t]{0.04\textwidth}
@@ -244,7 +241,7 @@
         Clark-Crossan Chair Professor and Director of the Biomedical Imaging Center \\
         Biomedical Engineering Department \\
         Rensselaer Polytechnic Institute \\
-        110 8th Street, Troy, NY 12180 \\
+        % 110 8th Street, Troy, NY 12180 \\
         wangg6@rpi.edu $\cdot$ +1(518)698-2500
     \end{minipage}
 
