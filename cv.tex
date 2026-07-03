@@ -1,4 +1,4 @@
-\documentclass[letterpaper, 10pt]{article}
+\documentclass[letterpaper, 11pt]{article}
 \usepackage{enumitem, titlesec}
 \usepackage[colorlinks=true, urlcolor=black]{hyperref}
 \usepackage[margin=0.5in]{geometry}
@@ -6,7 +6,7 @@
 % disable page number
 \pagestyle{empty}
 % section setting
-\titleformat{\section}{\scshape\large}{}{0em}{}[\titlerule]
+\titleformat{\section}{\scshape\Large}{}{0em}{}[\titlerule]
 % vsapce between subsection
 \newcommand{\subsectionvspace}{\vspace{8pt}}
 % line space of item same to default line space of the body paragraph
@@ -19,7 +19,7 @@
 
 
 \begin{minipage}[t]{0.4\textwidth}
-    \vspace*{0\baselineskip}\textbf{\huge Tianrui Qi}
+    \vspace*{0\baselineskip}\textbf{\Huge Tianrui Qi}
 \end{minipage}%
 \begin{minipage}[t]{0.6\textwidth}\raggedleft
     % 9 Gardner St, Allston, MA 02134
@@ -67,7 +67,7 @@
 \section{Publications \hfill {\normalsize \normalfont $\dag$: contributed equally}}
 
 
-    \textbf{Bio-CM$^{2}$: A Computational Miniature Mesoscope Enabling Cortex-Wide Cellular Imaging in Mice \hfill 2026}\\
+    \textbf{Bio-CM$^{2}$: A Computational Miniature Mesoscope \\ Enabling Cortex-Wide Cellular Imaging in Mice \hfill 2026}\\
     \textit{Manuscript in Preparation} \\
     \textit{Guorong Hu, Tianrui Qi, et al., Lei Tian}
 
@@ -93,17 +93,17 @@
     \textbf{Graduate Research Assistant \hfill 11/2025 - 07/2026} \\
     \textit{Boston University, Boston, MA} \\
     \textit{Computational Imaging Systems Lab, PI: Lei Tian, Ph.D.}
-    % \begin{itemize}
-    %     \item 
-    %     \item 
-    %     \item 
-    % \end{itemize}
+    \begin{itemize}
+        \item Analyzed reconstructed in vivo calcium-imaging videos covering a 10 mm $\times$ 7.5 mm field of view (FOV) from head-fixed mice to support biological validation of the computational miniature mesoscope (CM$^{2}$).
+        \item Applied Constrained Nonnegative Matrix Factorization for microendoscopic data (CNMF-E) to extract 3,474 neuronal footprints and corresponding 180-second calcium-activity traces from background-rich videos.
+        \item Validated neuron extraction quality using spatial and temporal metrics, showing that the single action potential (AP) response kinetics of the GCaMP6s calcium indicator matched published values.
+    \end{itemize}
     % GitHub: \href{https://github.com/tianrui-qi/CM2}{\underbar{github.com/tianrui-qi/CM2}}
     \end{samepage}
 
     \subsectionvspace
 
-    \begin{samepage}
+    % \begin{samepage}
     \textbf{Graduate Research Assistant \hfill 03/2026 - 04/2026} \\
     \textit{Boston University, Boston, MA} \\
     \textit{Dunlop Lab, PI: Mary Dunlop, Ph.D.}
@@ -112,7 +112,7 @@
         \item Characterized model performance across simulation stochasticity, input-history lengths, target-trajectory dynamics, and model architectures, identifying factors driving trajectory-tracking error.
     \end{itemize}
     GitHub: \href{https://github.com/tianrui-qi/GEPC}{\underbar{github.com/tianrui-qi/GEPC}}
-    \end{samepage}
+    % \end{samepage}
 
     \subsectionvspace
 
